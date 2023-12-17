@@ -1,6 +1,10 @@
 Name:Sakshi Mishra
 Add no:20je0841
 
+functionalities:
+1.free search bar.
+2.Search by vehicle number , with dropdown of current vehicles.
+3.Search by date range.
 
 
 # Getting Started with Create React App
