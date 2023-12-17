@@ -1,10 +1,62 @@
 .App {
   text-align: center;
 }
-
+body{
+  background-color: #F5F5F5;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.box{
+  margin-left: 30px;
+  
+}
+input{
+    width: 250px;
+    border-style: double;
+    padding: 10px;
+    background-color: white;
+}
+select{
+  width: 250px;
+  border-style: double;
+  padding: 10px;
+  background-color: white;
+}
+.input-style{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .input-box{
+  margin-left: 10px;
+  display: block;
+  
+} 
+.alarm{
+  margin-left: 440px;
+} 
+.false_alarm{
+font-size: 15px;
+} 
+.category{
+font-family: 'Mukta', sans-serif;
+  font-size: 20px;
+}
+.heading{
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+}
+.card{
+  text-align: left;
+  width: 800px;
+  display: flex;
+  margin-top: 10px;
+  height: 80px;
+  border-style: double;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +87,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+/******************************/
+.header_container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.body{
+  margin: 2rem 15%;
 }
